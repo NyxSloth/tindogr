@@ -1,0 +1,154 @@
+/************ SECTION TITLE ************/
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  color: white;
+  background-color: #FF4C68;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+/***************** Navigation Bar ***************/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+/***************** SECTION TITLE ***************/
+
+#title {
+  position: relative;
+  z-index: -2;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3%;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/***************** SECTION FEATURES ***************/
+
+#features {
+  background-color: white;
+  position: relative;
+}
+
+.feat-box {
+  text-align: center;
+  padding: 5%
+}
+
+/* Feature Icons */
+.ft-ico {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.ft-ico:hover {
+  color: #FF4C68;
+}
+
+
+
+/***************** SECTION TESTIMONIALS  ***************/
+#testimonials{
+  text-align: center;
+  color: white;
+  background-color: #EF8172;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/***************** SECTION PRESS  ***************/
+
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 10px;
+}
+
+/***************** SECTION PRICING  ***************/
+
+
+#pricing {
+  padding: 5%;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position:static;
+    transform: rotate(0);
+  }
+}
