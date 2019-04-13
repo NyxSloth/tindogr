@@ -11,6 +11,7 @@ body {
 .container-fluid {
   padding: 3% 15% 7%;
 }
+
 h1 {
   font-family: 'Montserrat';
   font-weight: 900;
@@ -55,12 +56,8 @@ p {
   font-family: "Montserrat";
   font-weight: 300;
 }
-/***************** SECTION TITLE ***************/
 
-#title {
-  position: relative;
-  z-index: -2;
-}
+/***************** SECTION TITLE ***************/
 
 /* Download Buttons */
 .download-button {
@@ -75,8 +72,8 @@ p {
 }
 
 /***************** SECTION FEATURES ***************/
-
 #features {
+  padding: 7% 15%;
   background-color: white;
   position: relative;
 }
@@ -96,20 +93,17 @@ p {
   color: #FF4C68;
 }
 
-
-
 /***************** SECTION TESTIMONIALS  ***************/
-#testimonials{
+#testimonials {
   text-align: center;
   color: white;
   background-color: #EF8172;
 }
 
-.testimonial-img{
+.testimonial-img {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
-
 }
 
 .carousel-item {
@@ -117,7 +111,6 @@ p {
 }
 
 /***************** SECTION PRESS  ***************/
-
 #press {
   background-color: #EF8172;
   text-align: center;
@@ -130,8 +123,6 @@ p {
 }
 
 /***************** SECTION PRICING  ***************/
-
-
 #pricing {
   padding: 5%;
   text-align: center;
@@ -141,6 +132,28 @@ p {
   padding: 3% 2%;
 }
 
+/***************** SECTION CTA  ***************/
+#cta {
+  color: white;
+  background-color: #FF4C68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-h3 {
+  font-size: 4rem;
+}
+
+/***************** SECTION Footer  ***************/
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.social-icn {
+  margin: 20px 10px;
+}
 
 @media (max-width: 1028px) {
   #title {
@@ -148,7 +161,7 @@ p {
   }
 
   .title-img {
-    position:static;
+    position: static;
     transform: rotate(0);
   }
 }
