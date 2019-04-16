@@ -35,6 +35,16 @@ p {
   padding: 7% 15%;
 }
 
+.colored-section {
+  background-color: #FF4C68;
+  color: white;
+
+}
+
+.white-section {
+  background-color: #fff;
+
+}
 
 /***************** Navigation Bar ***************/
 .navbar {
@@ -58,15 +68,9 @@ p {
 }
 
 /***************** SECTION TITLE ***************/
-
-#title {
-  color: white;
-  background-color: #FF4C68;
-  text-align: left;
-}
-
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 
@@ -84,7 +88,6 @@ p {
 
 /***************** SECTION FEATURES ***************/
 #features {
-  background-color: white;
   position: relative;
 }
 
@@ -109,7 +112,6 @@ p {
 
 /***************** SECTION TESTIMONIALS  ***************/
 #testimonials {
-  color: white;
   background-color: #EF8172;
 }
 
@@ -152,15 +154,8 @@ p {
 }
 
 /***************** SECTION CTA  ***************/
-#cta {
-  color: white;
-  background-color: #FF4C68;
-}
 
 /***************** SECTION Footer  ***************/
-#footer {
-  background-color: #fff;
-}
 
 .social-icn {
   margin: 20px 10px;
